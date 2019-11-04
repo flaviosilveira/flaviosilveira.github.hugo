@@ -1,0 +1,7 @@
+baseURL = "http://localhost:1313"
+languageCode = "pt-BR "
+title = "Vida e Tecnologia"
+theme = "ananke"
+
+[params]
+    gaid = "UA-XXXXXX"
