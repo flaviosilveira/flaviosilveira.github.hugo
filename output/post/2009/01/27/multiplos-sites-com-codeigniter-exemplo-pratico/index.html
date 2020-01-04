@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR ">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Vida e Tecnologia  | Múltiplos Sites Com CodeIgniter – Exemplo Prático</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Múltiplos Sites Com CodeIgniter – Exemplo Prático" />
+<meta property="og:description" content="Devido a muita procura do post sobre a restruturação do CodeIgniter para trabalhar com múltiplos sites (Múltiplos sites com CodeIgniter), fiz um passo a passo aqui da estrutura para o pessoal entender melhor.
+
+Estava recebendo muitas dúvidas, vamos ver se com este exemplo consigo deixar as coisas mais claras para todos.
+
+Começando do zero.
+
+Baixei a última versão do CodeIgniter.
+Descompacto ela no meu desktop.
+
+Dentro dessa pasta veio o system, o user_guide, o index.php e o license.txt.
+Costumo deletar o User_guide, pois uso a documentação online.
+
+Atenção agora ! 
+Dentro da pasta system temos a pasta application. É esta pasta que faz o seu site funcionar. Com esta informação em mente vamos em frente.
+
+Para começar a trabalhar com o servidor. Começe criando uma pasta para cada site. Como exemplo site1 e site2.
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:1313/post/2009/01/27/multiplos-sites-com-codeigniter-exemplo-pratico/" />
+<meta property="article:published_time" content="2009-01-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2009-01-27T00:00:00+00:00" />
+<meta itemprop="name" content="Múltiplos Sites Com CodeIgniter – Exemplo Prático">
+<meta itemprop="description" content="Devido a muita procura do post sobre a restruturação do CodeIgniter para trabalhar com múltiplos sites (Múltiplos sites com CodeIgniter), fiz um passo a passo aqui da estrutura para o pessoal entender melhor.
+
+Estava recebendo muitas dúvidas, vamos ver se com este exemplo consigo deixar as coisas mais claras para todos.
+
+Começando do zero.
+
+Baixei a última versão do CodeIgniter.
+Descompacto ela no meu desktop.
+
+Dentro dessa pasta veio o system, o user_guide, o index.php e o license.txt.
+Costumo deletar o User_guide, pois uso a documentação online.
+
+Atenção agora ! 
+Dentro da pasta system temos a pasta application. É esta pasta que faz o seu site funcionar. Com esta informação em mente vamos em frente.
+
+Para começar a trabalhar com o servidor. Começe criando uma pasta para cada site. Como exemplo site1 e site2.
+
+">
+
+
+<meta itemprop="datePublished" content="2009-01-27T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2009-01-27T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="492">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Múltiplos Sites Com CodeIgniter – Exemplo Prático"/>
+<meta name="twitter:description" content="Devido a muita procura do post sobre a restruturação do CodeIgniter para trabalhar com múltiplos sites (Múltiplos sites com CodeIgniter), fiz um passo a passo aqui da estrutura para o pessoal entender melhor.
+
+Estava recebendo muitas dúvidas, vamos ver se com este exemplo consigo deixar as coisas mais claras para todos.
+
+Começando do zero.
+
+Baixei a última versão do CodeIgniter.
+Descompacto ela no meu desktop.
+
+Dentro dessa pasta veio o system, o user_guide, o index.php e o license.txt.
+Costumo deletar o User_guide, pois uso a documentação online.
+
+Atenção agora ! 
+Dentro da pasta system temos a pasta application. É esta pasta que faz o seu site funcionar. Com esta informação em mente vamos em frente.
+
+Para começar a trabalhar com o servidor. Começe criando uma pasta para cada site. Como exemplo site1 e site2.
+
+"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="//localhost:1313/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Vida e Tecnologia
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Múltiplos Sites Com CodeIgniter – Exemplo Prático</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2009-01-27T00:00:00Z">January 27, 2009</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Devido a muita procura do post sobre a restruturação do CodeIgniter para trabalhar com múltiplos sites (<a href="http://flaviosilveira.com/2008/alterando-configuracao-do-codeigniter/">Múltiplos sites com CodeIgniter</a>), fiz um passo a passo aqui da estrutura para o pessoal entender melhor.</p>
+
+<p>Estava recebendo muitas dúvidas, vamos ver se com este exemplo consigo deixar as coisas mais claras para todos.</p>
+
+<p><strong>Começando do zero.</strong></p>
+
+<p>Baixei a <a href="http://codeigniter.com/downloads/">última versão do CodeIgniter</a>.<br/>
+Descompacto ela no meu <em>desktop</em>.</p>
+
+<p>Dentro dessa pasta veio o <em>system</em>, o <em>user_guide</em>, o <em>index.php</em> e o <em>license.txt</em>.<br/>
+Costumo deletar o User_guide, pois uso a documentação online.</p>
+
+<p><strong>Atenção agora ! </strong><br/>
+Dentro da pasta system temos a pasta <em>application</em>. É esta pasta que faz o seu site funcionar. Com esta informação em mente vamos em frente.</p>
+
+<p>Para começar a trabalhar com o servidor. Começe criando uma pasta para cada site. Como exemplo <em>site1</em> e <em>site2</em>.<br/>
+<img class="alignnone size-full wp-image-61" title="ex1" src="../../assets/uploads/2009/01/ex1.jpg" alt="ex1" width="99" height="77" /><br/>
+<br style="clear: both;" /></p>
+
+<p>O que o site vai precisar para funcionar ? Sim, como vimos acima é a pasta <em>application</em>. Dentro da pasta de cada site vamos precisar de uma application.<br/>
+<img class="alignnone size-full wp-image-62" title="ex2" src="../../assets/uploads/2009/01/ex2.jpg" alt="ex2" width="160" height="486" /><br/>
+<br style="clear: both;" /><br/>
+A pasta <em>application</em>, claro, deve ir com a estrutura que vem por padrão nela, como você deve ter reparado na imagem acima.</p>
+
+<p>Agora que já temos o local dos sites prontos, precisamos do que faz o Codeigniter funcionar, que é todo o restante da pasta <em>system</em>. Essa pasta deve estar no mesmo nível dos seus sites.<br/>
+<img class="alignnone size-full wp-image-63" title="ex3" src="../../assets/uploads/2009/01/ex3.jpg" alt="ex3" width="99" height="86" /><br/>
+<br style="clear: both;" /><br/>
+Ok. Quase lá.<br/>
+Agora, sabe aquele <em>index.php</em> que veio quando descompactamos o codeIgniter ? Como digo no <a href="http://flaviosilveira.com/2008/alterando-configuracao-do-codeigniter">outro post</a>, é ele quem indica o caminho da pasta <em>application</em> do seu site, e também do core do codeIgniter. Logo, vamos precisar de um deles para cada site.<br/>
+<img class="alignnone size-full wp-image-64" title="ex4" src="../../assets/uploads/2009/01/ex4.jpg" alt="ex4" width="139" height="150" /><br/>
+<br style="clear:both;" /><br/>
+Agora precisamos editar esse arquivo index.php. Vamos começar pelo do site1.<br/>
+Procure pela linha</p>
+
+<p>title = &ldquo;multiplos sites com codeigniter exemplo pratico&rdquo;
+</pre></p>
+
+<p>Esta variável indica aonde está o core do seu sistema, a pasta <em>system</em>.<br/>
+No nosso caso ela está um nível acima, então basta mudar para</p>
+
+<p>title = &ldquo;multiplos sites com codeigniter exemplo pratico&rdquo;
+</pre></p>
+
+<p>Logo na sequência você deve ver a linha</p>
+
+<p>title = &ldquo;multiplos sites com codeigniter exemplo pratico&rdquo;
+</pre></p>
+
+<p>Essa é a variável que indica onde está a pasta application desse site (lembrando&#8230;estamos alterando o site1). O caminho está correto, então, mantemos assim.</p>
+
+<p>Faça o mesmo para o site2, indicando onde está o core do codeIgniter(pasta <em>system</em>) e a pasta <em>application</em>.</p>
+
+<p>Está feito!</p>
+
+<p>Agora, apenas para ficar mais explícito, vamos alterar a view de cada site.<br/>
+Dentro de <em>Application</em> > <em>views</em>, temos o arquivo <em>welcome_message.php</em>.<br/>
+<img class="alignnone size-full wp-image-65" title="ex5" src="../../assets/uploads/2009/01/ex5.jpg" alt="ex5" width="203" height="213" /><br/>
+<br style="clear:both;" /><br/>
+Dentro desse arquivo, vem a mensagem padrão de boas vindas do codeIgniter. Na do site1 tirei tudo que havia (ctrl + a &#8211; del) e coloquei apenas o título</p>
+
+<p>title = &ldquo;multiplos sites com codeigniter exemplo pratico&rdquo;
+</pre></p>
+
+<p>e na do site2 apenas o título</p>
+
+<p>title = &ldquo;multiplos sites com codeigniter exemplo pratico&rdquo;
+</pre></p>
+
+<p>Agora basta acessar as pastas para conferir o resultado.</p>
+
+<p>Para detalhes mais técnicos desse step by step, confira o <a href="http://flaviosilveira.com/2008/alterando-configuracao-do-codeigniter">antigo post</a>.</p>
+
+<p>Ainda com dúvida ? <a href="http://www.flaviosilveira.com/assets/uploads/multiplosSitesCI.rar">Faça aqui o download dos arquivos</a>.</p>
+
+<p>Caso ainda tenha sobrado dúvidas&#8230;entre em contato.<br/>
+Abraços !!!</p><ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="//localhost:1313/" >
+    &copy; 2019 Vida e Tecnologia
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+</html>

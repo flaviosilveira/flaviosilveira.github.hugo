@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR ">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Vida e Tecnologia  | Criando seu Container com Dockerfile</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Criando seu Container com Dockerfile" />
+<meta property="og:description" content="Foi uma longa jornada até criarmos nosso container da maneira que queríamos flaviosilveira.com/2017/criando-seu-container-nginx-php-1/ e flaviosilveira.com/2017/criando-seu-container-nginx-php-2/. Ainda assim temos alguns pontos chatos como o de ter de iniciar o Nginx e o PHP-FPM Manualmente.
+
+Felizmente há uma maneira mais simples de montarmos nosso container e ainda fugindo do trabalho manual. Vamos usar Dockerfile!
+
+Dockerfile é um arquivo onde colocamos tudo o que precisamos para nosso container. De qual container ele se origina, o que você quer instalar, que serviços quer rodar.
+
+Se você está acompanhando a série de artigos sobre docker, basicamente vamos traduzir o que fizemos nos dois artigos anteriores para um Dockerfile.
+
+No decorrer deste artigo vou me referir aos 2 anteriores praticamente o tempo todo. Caso você não os tenha lido, pode ficar um pouco fora de contexto para você, mas nada que vá comprometer o entendimento final." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:1313/post/2017/02/12/criando-seu-container-com-dockerfile/" />
+<meta property="article:published_time" content="2017-02-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-02-12T00:00:00+00:00" />
+<meta itemprop="name" content="Criando seu Container com Dockerfile">
+<meta itemprop="description" content="Foi uma longa jornada até criarmos nosso container da maneira que queríamos flaviosilveira.com/2017/criando-seu-container-nginx-php-1/ e flaviosilveira.com/2017/criando-seu-container-nginx-php-2/. Ainda assim temos alguns pontos chatos como o de ter de iniciar o Nginx e o PHP-FPM Manualmente.
+
+Felizmente há uma maneira mais simples de montarmos nosso container e ainda fugindo do trabalho manual. Vamos usar Dockerfile!
+
+Dockerfile é um arquivo onde colocamos tudo o que precisamos para nosso container. De qual container ele se origina, o que você quer instalar, que serviços quer rodar.
+
+Se você está acompanhando a série de artigos sobre docker, basicamente vamos traduzir o que fizemos nos dois artigos anteriores para um Dockerfile.
+
+No decorrer deste artigo vou me referir aos 2 anteriores praticamente o tempo todo. Caso você não os tenha lido, pode ficar um pouco fora de contexto para você, mas nada que vá comprometer o entendimento final.">
+
+
+<meta itemprop="datePublished" content="2017-02-12T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-02-12T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1032">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Criando seu Container com Dockerfile"/>
+<meta name="twitter:description" content="Foi uma longa jornada até criarmos nosso container da maneira que queríamos flaviosilveira.com/2017/criando-seu-container-nginx-php-1/ e flaviosilveira.com/2017/criando-seu-container-nginx-php-2/. Ainda assim temos alguns pontos chatos como o de ter de iniciar o Nginx e o PHP-FPM Manualmente.
+
+Felizmente há uma maneira mais simples de montarmos nosso container e ainda fugindo do trabalho manual. Vamos usar Dockerfile!
+
+Dockerfile é um arquivo onde colocamos tudo o que precisamos para nosso container. De qual container ele se origina, o que você quer instalar, que serviços quer rodar.
+
+Se você está acompanhando a série de artigos sobre docker, basicamente vamos traduzir o que fizemos nos dois artigos anteriores para um Dockerfile.
+
+No decorrer deste artigo vou me referir aos 2 anteriores praticamente o tempo todo. Caso você não os tenha lido, pode ficar um pouco fora de contexto para você, mas nada que vá comprometer o entendimento final."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="//localhost:1313/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Vida e Tecnologia
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Criando seu Container com Dockerfile</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2017-02-12T00:00:00Z">February 12, 2017</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Foi uma longa jornada até criarmos nosso container da maneira que queríamos <a href="http://flaviosilveira.com/2017/criando-seu-container-nginx-php-1/">flaviosilveira.com/2017/criando-seu-container-nginx-php-1/</a> e <a href="http://flaviosilveira.com/2017/criando-seu-container-nginx-php-2/">flaviosilveira.com/2017/criando-seu-container-nginx-php-2/</a>. Ainda assim temos alguns pontos chatos como o de ter de iniciar o Nginx e o PHP-FPM Manualmente.</p>
+
+<p>Felizmente há uma maneira mais simples de montarmos nosso container e ainda fugindo do trabalho manual. Vamos usar Dockerfile!</p>
+
+<p>Dockerfile é um arquivo onde colocamos tudo o que precisamos para nosso container. De qual container ele se origina, o que você quer instalar, que serviços quer rodar.</p>
+
+<p>Se você está acompanhando a série de artigos sobre docker, basicamente vamos traduzir o que fizemos nos dois artigos anteriores para um Dockerfile.</p>
+
+<p>No decorrer deste artigo vou me referir aos 2 anteriores praticamente o tempo todo. Caso você não os tenha lido, pode ficar um pouco fora de contexto para você, mas nada que vá comprometer o entendimento final.</p>
+
+<p>###Preparação
+Crie uma pasta chamada <em>docker-test</em>, e dentro dela crie um arquivo chamado <em>Dockerfile</em>. Com a inicial maiúscula e sem extensão.</p>
+
+<p>Isso é tudo que vamos precisar.</p>
+
+<p>###Container de origem
+No começo da parte 1 do artigo falamos sobre de qual container partiríamos. Entre Ubuntu e Debian, ficamos com o Debian.</p>
+
+<p>Para dizer isso para o Dockerfile, usamos <strong>FROM</strong></p>
+
+<pre><code>FROM debian
+</code></pre>
+
+<p>Com essa diretiva, estamos partindo da última imagem do debian presente no DockerHub.</p>
+
+<p>###Assine sua imagem
+Use <em>MAINTENER</em> para assinar sua imagem, dizer aos outros quem é o mantenedor dela.
+No meu caso:</p>
+
+<pre><code>MAINTAINER Flavio Silveira
+</code></pre>
+
+<p>###Atualização e instalações
+Passamos algum tempo atualizando o sistema e em seguida instalando o NGinx e o PHP-FPM. Fizemos isso de fora do container usando o comando <em>docker exec</em>.</p>
+
+<p>No Dockerfile usamos RUN para criar o ambiente da nossa imagem</p>
+
+<pre><code>RUN apt-get update
+RUN apt-get install -y nginx
+RUN apt-get install -y php5-fpm
+</code></pre>
+
+<p>Essas 3 linhas resumem muito do trabalho que foi feito na parte 1 do artigo. Elas indicam respectivamente que queremos atualizar o sistema operacional e em seguida instalar o NGinx e o php5-fpm. Simples assim!</p>
+
+<p>###Configurações
+Para configurar nosso container, entramos nele com o comando <em>docker attach</em> e criamos e alteramos o arquivo <em>/etc/nginx/sites-available/default</em>. Fizemos um arquivo bem enxuto funcionando na porta <em>80</em> e apontando para <em>/var/www/app</em>.</p>
+
+<p>Copie o trabalho que fizemos com o arquivo default dentro do container para um arquivo local, dentro de nossa pasta <em>docker-test</em>, chame ele de <em>default</em>.</p>
+
+<p>Agora vamos dizer para o Dockerfile que queremos copiar esse arquivo para a configuração do Nginx.</p>
+
+<pre><code>COPY default /etc/nginx/sites-available/default
+</code></pre>
+
+<p>O primeiro parâmetro é o arquivo em nossa máquina, e o segundo é o lugar que ele vai parar em nossa imagem.</p>
+
+<p>Os passos de criar a pasta app, não serão necessários. Você vai ver como o container vai se virar com isso sem trazer a dor de cabeça para você.</p>
+
+<p>###Fechando sua imagem
+Na parte 2 do artigo anterior criamos a imagem a partir do container que estavamos rodando. Infelizmente tinhamos de iniciar o NGinx e o PHP-FPM manualmente após fazer download da imagem para fazer as coisas acontecerem.</p>
+
+<p>Aqui no Dockerfile vamos resolver esse problema.</p>
+
+<p>Uma vez que nosso ambiente foi preparado com os comandos anteriores, agora vamos usar <em>CMD</em> para dizer como nosso container vai rodar.</p>
+
+<pre><code>CMD service nginx start &amp;&amp; service php5-fpm start &amp;&amp; /bin/bash
+</code></pre>
+
+<p>Repare que diferente da diretiva <em>RUN</em>, com <em>CMD</em> concatenamos os comandos usando <em>&amp;&amp;</em>. Precisamos disso pois só podemos ter um <em>CMD</em> no Dockerfile.</p>
+
+<p>Aqui respectivamente iniciarmos o Nginx, em seguida o PHP-FPM e executamos <em>/bin/bash</em> para que o container fique de pé quando iniciado.</p>
+
+<p>Caso a gente não use esse <em>/bin/bash</em> aqui, teremos que passar ele quando rodarmos a imagem com <em>docker run</em>.</p>
+
+<p>###Nosso Dockerfile
+É isso! Já temos tudo o que precisamos no nosso <em>Dockerfile</em>.
+Vejam como ficou:</p>
+
+<pre><code>FROM debian
+
+MAINTAINER Flavio Silveira
+
+RUN apt-get update
+RUN apt-get install -y nginx
+RUN apt-get install -y php5-fpm
+
+COPY default /etc/nginx/sites-available/default
+
+CMD service nginx start &amp;&amp; service php5-fpm start &amp;&amp; /bin/bash
+</code></pre>
+
+<p>###Construindo a imagem
+Para construir a imagem a partir do Dockerfile vamos executar o comando docker build.</p>
+
+<pre><code>docker build -t flaviosilveira/php-nginx-2 .
+</code></pre>
+
+<p>Usamos o parâmetro -t para dar a nossa imagem um apelido, uma tag para que fique mais fácil levantar ela depois. Assim como no artigo anterior, coloque seu nome de usuário do DockerHub na frente da tag da imagem. Isso será necessário na hora do envio da imagem. No meu caso ficou <em>flaviosilveira/php-nginx-2</em>.</p>
+
+<p>O ponto no final, indica o diretório aonde está o Dockerfile que você criou.</p>
+
+<p>Você verá o docker executar passo a passo do seu Dockerfile em detalhes, acompanhe no seu terminal.</p>
+
+<p>###Checando sua imagem e dando run
+Com o comando <em>docker images</em> você vê sua imagem criada localmente. Vamos testa-lá?</p>
+
+<pre><code>docker run --name usando-dockerfile -itd -p 8080:80 -v ~/dev/php:/var/www/app flaviosilveira/php-nginx-2
+</code></pre>
+
+<p>Coloquei um nome para meu container de <em>usando-dockerfile</em>.</p>
+
+<p>Passamos a referência de portas, a 8080 de nossa máquina vai bater na 80 do container.</p>
+
+<p>Compartilhei uma pasta local minha <em>~/dev/php</em> para a pasta <em>/var/www/app</em> do container. Tudo que que for feito na pasta local, vai refletir na pasta dentro do container. <em>/var/www/app</em> é o local para onde nosso config do NGinx aponta como diretório raiz.</p>
+
+<p>Faça os testes com seus arquivos PHP e veja em funcionamento.</p>
+
+<p>Caso queira, acesse o container e confirme que seus serviços estão rodando e que o arquivo de configuração do NGinx foi copiado.</p>
+
+<p>###Enviando ao Dockerhub
+Para enviar a imagem para o DockerHub, vamos fazer o mesmo processo do artigo anterior.</p>
+
+<pre><code>docker login
+</code></pre>
+
+<p>Caso não tenha usuário no DockerHub, não esqueça de criar antes.</p>
+
+<p>E para enviar a imagem</p>
+
+<pre><code>docker push flaviosilveira/php-nginx-2
+</code></pre>
+
+<p>Use com a tag que deu para sua imagem, com seu nome de usuário.</p>
+
+<p>É isso! Acesse o DockerHub para conferir.</p>
+
+<p>###Testando
+Seguindo o mesmo que fizemos no final do último artigo vamos testar.</p>
+
+<p>Antes de testar, vamos eliminar tudo que temos localmente, parar o container e remover a imagem.</p>
+
+<pre><code>docker stop usando-dockerfile
+docker rm usando-dockerfile
+docker rmi flaviosilveira/php-nginx-2
+</code></pre>
+
+<p>Agora executamos o mesmo run que fizemos acima.</p>
+
+<pre><code>docker run --name usando-dockerfile -itd -p 8080:80 -v ~/dev/php:/var/www/app flaviosilveira/php-nginx-2
+</code></pre>
+
+<p>A imagem não será encontrada localmente e será feito download dela diretamente do DockerHub.</p>
+
+<p>Veja seu container rodando:</p>
+
+<pre><code>docker ps
+</code></pre>
+
+<p>Viram como foi muito mais fácil usar o Dockerfile para criar nosso container? Por hoje é isso!</p>
+
+<p>Grande abraço e até a próxima.</p><ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="//localhost:1313/" >
+    &copy; 2019 Vida e Tecnologia
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+</html>

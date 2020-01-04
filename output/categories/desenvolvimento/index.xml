@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>desenvolvimento on Vida e Tecnologia</title>
+    <link>//localhost:1313/categories/desenvolvimento/</link>
+    <description>Recent content in desenvolvimento on Vida e Tecnologia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR </language>
+    <lastBuildDate>Wed, 27 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/categories/desenvolvimento/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Entenda como funciona o PHP! (Do código fonte até a renderização)</title>
+      <link>//localhost:1313/post/2019/02/27/entenda-como-funciona-o-php-do-codigo-fonte-ate-a-renderizacao/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/post/2019/02/27/entenda-como-funciona-o-php-do-codigo-fonte-ate-a-renderizacao/</guid>
+      <description>Esse artigo é quase uma tradução fiel do artigo How PHP Executes from Source Code to Render de Thomas Punt, revisado por Younes Rafie.
+No original o autor coloca os pedaços de códigos para você testar por conta. Aqui, além disso, adicionei como rodar os mesmos com um único comando, usando docker. Assim você não precisa de muito esforço para ver os exemplos.
+Criei uma imagem no dockerhub com tudo necessário para rodar os exemplos desse artigo.</description>
+    </item>
+    
+  </channel>
+</rss>

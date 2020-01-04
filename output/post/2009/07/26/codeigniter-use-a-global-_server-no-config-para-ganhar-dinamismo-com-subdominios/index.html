@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR ">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Vida e Tecnologia  | CodeIgniter: Use a Global $_SERVER No Config Para Ganhar Dinamismo Com Subdomínios</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="CodeIgniter: Use a Global $_SERVER No Config Para Ganhar Dinamismo Com Subdomínios" />
+<meta property="og:description" content="Cenário:
+
+Você compra o domínio principal, www.site.com.br. E você vai ter duas versões desse site, uma para cada cliente, que vai usar todas as regras de negócio iguais. A única diferença será o layout. Os clientes pediram os subdomínios branco.site.com.br e preto.site.com.br.
+
+Você pode fazer duas cópias do site em pastas diferentes, mas levando em consideração que eles tem o mesmo CORE, isso não é muito inteligente. Pense se você tiver que fazer uma atualização, você vai ter de mexer em ambos os projetos.
+
+Porque não fazer os subdomínios como links simbólicos para uma mesma pasta? De lá você pode fazer uma verificação. Se for um site, pega o layout branco, se for o outro pega o layout preto.
+
+Problema:
+
+No Codeigniter você define a URL principal do seu projeto nos arquivos de configuração, na variável $config[&#8216;base_url&#8217;]. Você não vai ter como colocar os subdomínios lá. O que fazer?
+
+Solução:
+Usar a Global $_SERVER.
+
+Essa Global traz informações como o host que você está acessando, o email do administrador da máquina, o software usado, a configuração do TimeOut entre outras.
+
+Para que você mesmo visualize tudo isso faça o seguinte. Abra o seu config.php do CodeIgniter e logo acima de onde está setado a variável $config[&#8216;base_url&#8217;] de um print_r, como abaixo:
+
+title = &ldquo;codeigniter use a global _server no config para ganhar dinamismo com subdominios&rdquo;
+| Base Site URL
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+|
+| URL to your CodeIgniter root. Typically this will be your base URL,
+| WITH a trailing slash:
+|
+|       http://example.com/
+|
+*
+print_r($_SERVER);
+die;
+$config[&lsquo;base_url&rsquo;]     = &ldquo;http://www.site.com.br/&quot;;
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:1313/post/2009/07/26/codeigniter-use-a-global-_server-no-config-para-ganhar-dinamismo-com-subdominios/" />
+<meta property="article:published_time" content="2009-07-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2009-07-26T00:00:00+00:00" />
+<meta itemprop="name" content="CodeIgniter: Use a Global $_SERVER No Config Para Ganhar Dinamismo Com Subdomínios">
+<meta itemprop="description" content="Cenário:
+
+Você compra o domínio principal, www.site.com.br. E você vai ter duas versões desse site, uma para cada cliente, que vai usar todas as regras de negócio iguais. A única diferença será o layout. Os clientes pediram os subdomínios branco.site.com.br e preto.site.com.br.
+
+Você pode fazer duas cópias do site em pastas diferentes, mas levando em consideração que eles tem o mesmo CORE, isso não é muito inteligente. Pense se você tiver que fazer uma atualização, você vai ter de mexer em ambos os projetos.
+
+Porque não fazer os subdomínios como links simbólicos para uma mesma pasta? De lá você pode fazer uma verificação. Se for um site, pega o layout branco, se for o outro pega o layout preto.
+
+Problema:
+
+No Codeigniter você define a URL principal do seu projeto nos arquivos de configuração, na variável $config[&#8216;base_url&#8217;]. Você não vai ter como colocar os subdomínios lá. O que fazer?
+
+Solução:
+Usar a Global $_SERVER.
+
+Essa Global traz informações como o host que você está acessando, o email do administrador da máquina, o software usado, a configuração do TimeOut entre outras.
+
+Para que você mesmo visualize tudo isso faça o seguinte. Abra o seu config.php do CodeIgniter e logo acima de onde está setado a variável $config[&#8216;base_url&#8217;] de um print_r, como abaixo:
+
+title = &ldquo;codeigniter use a global _server no config para ganhar dinamismo com subdominios&rdquo;
+| Base Site URL
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+|
+| URL to your CodeIgniter root. Typically this will be your base URL,
+| WITH a trailing slash:
+|
+|       http://example.com/
+|
+*
+print_r($_SERVER);
+die;
+$config[&lsquo;base_url&rsquo;]     = &ldquo;http://www.site.com.br/&quot;;
+
+">
+
+
+<meta itemprop="datePublished" content="2009-07-26T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2009-07-26T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="466">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="CodeIgniter: Use a Global $_SERVER No Config Para Ganhar Dinamismo Com Subdomínios"/>
+<meta name="twitter:description" content="Cenário:
+
+Você compra o domínio principal, www.site.com.br. E você vai ter duas versões desse site, uma para cada cliente, que vai usar todas as regras de negócio iguais. A única diferença será o layout. Os clientes pediram os subdomínios branco.site.com.br e preto.site.com.br.
+
+Você pode fazer duas cópias do site em pastas diferentes, mas levando em consideração que eles tem o mesmo CORE, isso não é muito inteligente. Pense se você tiver que fazer uma atualização, você vai ter de mexer em ambos os projetos.
+
+Porque não fazer os subdomínios como links simbólicos para uma mesma pasta? De lá você pode fazer uma verificação. Se for um site, pega o layout branco, se for o outro pega o layout preto.
+
+Problema:
+
+No Codeigniter você define a URL principal do seu projeto nos arquivos de configuração, na variável $config[&#8216;base_url&#8217;]. Você não vai ter como colocar os subdomínios lá. O que fazer?
+
+Solução:
+Usar a Global $_SERVER.
+
+Essa Global traz informações como o host que você está acessando, o email do administrador da máquina, o software usado, a configuração do TimeOut entre outras.
+
+Para que você mesmo visualize tudo isso faça o seguinte. Abra o seu config.php do CodeIgniter e logo acima de onde está setado a variável $config[&#8216;base_url&#8217;] de um print_r, como abaixo:
+
+title = &ldquo;codeigniter use a global _server no config para ganhar dinamismo com subdominios&rdquo;
+| Base Site URL
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+|
+| URL to your CodeIgniter root. Typically this will be your base URL,
+| WITH a trailing slash:
+|
+|       http://example.com/
+|
+*
+print_r($_SERVER);
+die;
+$config[&lsquo;base_url&rsquo;]     = &ldquo;http://www.site.com.br/&quot;;
+
+"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="//localhost:1313/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Vida e Tecnologia
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">CodeIgniter: Use a Global $_SERVER No Config Para Ganhar Dinamismo Com Subdomínios</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2009-07-26T00:00:00Z">July 26, 2009</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Cenário:</p>
+
+<p>Você compra o domínio principal, <em>www.site.com.br</em>. E você vai ter duas versões desse site, uma para cada cliente, que vai usar todas as regras de negócio iguais. A única diferença será o layout. Os clientes pediram os subdomínios <em>branco.site.com.br</em> e <em>preto.site.com.br</em>.</p>
+
+<p>Você pode fazer duas cópias do site em pastas diferentes, mas levando em consideração que eles tem o mesmo CORE, isso não é muito inteligente. Pense se você tiver que fazer uma atualização, você vai ter de mexer em ambos os projetos.</p>
+
+<p>Porque não fazer os subdomínios como links simbólicos para uma mesma pasta? De lá você pode fazer uma verificação. Se for um site, pega o layout branco, se for o outro pega o layout preto.</p>
+
+<p>Problema:</p>
+
+<p>No Codeigniter você define a URL principal do seu projeto nos arquivos de configuração, na variável <em>$config[&#8216;base_url&#8217;]</em>. Você não vai ter como colocar os subdomínios lá. O que fazer?</p>
+
+<p>Solução:<br/>
+Usar a Global <em>$_SERVER</em>.</p>
+
+<p>Essa Global traz informações como o host que você está acessando, o email do administrador da máquina, o software usado, a configuração do TimeOut entre outras.</p>
+
+<p>Para que você mesmo visualize tudo isso faça o seguinte. Abra o seu config.php do CodeIgniter e logo acima de onde está setado a variável <em>$config[&#8216;base_url&#8217;]</em> de um print_r, como abaixo:</p>
+
+<p>title = &ldquo;codeigniter use a global _server no config para ganhar dinamismo com subdominios&rdquo;
+| Base Site URL
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+|
+| URL to your CodeIgniter root. Typically this will be your base URL,
+| WITH a trailing slash:
+|
+|       <a href="http://example.com/">http://example.com/</a>
+|
+*
+print_r($_SERVER);
+die;
+$config[&lsquo;base_url&rsquo;]     = &ldquo;<a href="http://www.site.com.br/&quot;">http://www.site.com.br/&quot;</a>;</p>
+
+<p></pre></p>
+
+<p>Veja em seu browser todas as opções que você tem nessa global.</p>
+
+<p>Dê uma atenção na primeira opção que vêm no array, o <em>HTTP_HOST</em>. Ele traz o endereço primário que você está acessando. É o que você precisa para setar seu config de acordo com a url que seu visitante acessar.</p>
+
+<p>Dando um print apenas nesse cara,</p>
+
+<p>title = &ldquo;codeigniter use a global _server no config para ganhar dinamismo com subdominios&rdquo;
+| Base Site URL
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+|
+| URL to your CodeIgniter root. Typically this will be your base URL,
+| WITH a trailing slash:
+|
+|       <a href="http://example.com/">http://example.com/</a>
+|
+*
+print_r($_SERVER[&lsquo;HTTP_HOST&rsquo;]);
+die;
+$config[&lsquo;base_url&rsquo;]     = &ldquo;<a href="http://www.site.com.br/&quot;">http://www.site.com.br/&quot;</a>;</p>
+
+<p></pre></p>
+
+<p>ele retorna o seu subdomínio.</p>
+
+<p>Agora é só fazer uma adaptação.</p>
+
+<p>title = &ldquo;codeigniter use a global _server no config para ganhar dinamismo com subdominios&rdquo;
+| Base Site URL
+|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;
+|
+| URL to your CodeIgniter root. Typically this will be your base URL,
+| WITH a trailing slash:
+|
+|       <a href="http://example.com/">http://example.com/</a>
+|
+*</p>
+
+<p>$config[&lsquo;base_url&rsquo;]     = &ldquo;http://&rdquo; . $_SERVER[&lsquo;HTTP_HOST&rsquo;];</p>
+
+<p></pre></p>
+
+<p>Seja lá qual subdomínio você acessar, ele vai setar como <em>base_url</em> para você.</p>
+
+<p>Caso você não use subdomínios, esse artifício pode ser usado para você deixar o base_url automatizado para seus projetos.</p>
+
+<p>Espero que tenham curtido a idéia.<br/>
+Qualquer dúvida só mandar.<br/>
+Abraços!!</p><ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="//localhost:1313/" >
+    &copy; 2019 Vida e Tecnologia
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+</html>
