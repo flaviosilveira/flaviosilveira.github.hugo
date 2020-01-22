@@ -1,5 +1,6 @@
 baseURL = "http://localhost:1313"
-languageCode = "pt-BR "
+DefaultContentLanguage = "pt"
+disqusShortname = "flaviosilveira"
 title = "Vida e Tecnologia"
 theme = "ananke"
 

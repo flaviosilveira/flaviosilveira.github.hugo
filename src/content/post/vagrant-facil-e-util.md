@@ -1,7 +1,7 @@
 +++
 title = "Vagrant: Fácil E útil"
 date = "2012-11-07"
-slug = "2012/11/07/vagrant-facil-e-util"
+slug = "2012/vagrant-facil-e-util"
 Categories = ['desenvolvimento']
 +++
 

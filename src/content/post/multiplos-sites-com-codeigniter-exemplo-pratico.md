@@ -1,7 +1,7 @@
 +++
 title = "Múltiplos Sites Com CodeIgniter – Exemplo Prático"
 date = "2009-01-27"
-slug = "2009/01/27/multiplos-sites-com-codeigniter-exemplo-pratico"
+slug = "2009/multiplos-sites-com-codeigniter-exemplo-pratico"
 Categories = ['desenvolvimento', 'php']
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "Microserviços"
 date = "2016-11-07"
-slug = "2016/11/07/microservicos"
+slug = "2016/microservicos"
 Categories = ['desenvolvimento']
 +++
 Muito anda se falando sobre microserviços e trago para vocês minha experiência de como começamos a trabalhar dessa forma aqui na [LojasKD](https://www.lojaskd.com.br).

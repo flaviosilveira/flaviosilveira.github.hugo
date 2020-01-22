@@ -1,7 +1,7 @@
 +++
 title = "Ansible - Desperte a automação em você"
 date = "2016-10-17"
-slug = "2016/10/17/ansible-desperte-a-automacao-em-voce"
+slug = "2016/ansible-desperte-a-automacao-em-voce"
 Categories = ['desenvolvimento']
 +++
 {% raw %}

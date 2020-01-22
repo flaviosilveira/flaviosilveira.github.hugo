@@ -1,7 +1,7 @@
 +++
 title = "Entenda como funciona o PHP! (Do código fonte até a renderização)"
 date = "2019-02-27"
-slug = "2019/02/27/entenda-como-funciona-o-php-do-codigo-fonte-ate-a-renderizacao"
+slug = "2019/entenda-como-funciona-o-php-do-codigo-fonte-ate-a-renderizacao"
 Categories = ['desenvolvimento']
 +++
 

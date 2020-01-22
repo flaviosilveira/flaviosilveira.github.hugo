@@ -1,7 +1,7 @@
 +++
 title = "Ferramentas de otimização de imagem via linha de comando"
 date = "2019-02-18"
-slug = "2019/02/18/ferramentas-de-otimizacao-de-imagem-via-linha-de-comando"
+slug = "2019/ferramentas-de-otimizacao-de-imagem-via-linha-de-comando"
 Categories = ['desenvolvimento']
 +++
 Na última semana durante um trabalho de otimização de performance para um site, chegou a hora das imagens. Muitas imagens antigas de produtos e também peças de layout que tinham bom espaço para ganho. Diminuir o tamanho dos arquivos sem perder tanto as cores e a qualidade gráfica das imagens.

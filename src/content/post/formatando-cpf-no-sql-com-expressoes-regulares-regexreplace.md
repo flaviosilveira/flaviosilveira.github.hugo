@@ -1,7 +1,7 @@
 +++
 title = "Formatando CPF No SQL Com Expressões Regulares – RegexReplace"
 date = "2010-05-21"
-slug = "2010/05/21/formatando-cpf-no-sql-com-expressoes-regulares-regexreplace"
+slug = "2010/formatando-cpf-no-sql-com-expressoes-regulares-regexreplace"
 Categories = ['desenvolvimento', 'expressão regular']
 +++
 

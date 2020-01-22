@@ -1,7 +1,7 @@
 +++
 title = "ScreenCast – Bate Papo Sobre Desenvolvimento De Sites Para IPhone"
 date = "2010-01-19"
-slug = "2010/01/19/screencast-bate-papo-sobre-desenvolvimento-de-sites-para-iphone"
+slug = "2010/screencast-bate-papo-sobre-desenvolvimento-de-sites-para-iphone"
 Categories = ['vídeos e casts']
 +++
 

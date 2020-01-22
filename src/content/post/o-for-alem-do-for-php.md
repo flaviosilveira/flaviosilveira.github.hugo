@@ -1,7 +1,7 @@
 +++
 title = "O for Além Do for – PHP"
 date = "2010-11-20"
-slug = "2010/11/20/o-for-alem-do-for-php"
+slug = "2010/o-for-alem-do-for-php"
 Categories = ['desenvolvimento', 'php']
 +++
 

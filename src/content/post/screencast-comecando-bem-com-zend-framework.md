@@ -1,7 +1,7 @@
 +++
 title = "Screencast – Começando Bem Com Zend Framework"
 date = "2011-12-29"
-slug = "2011/12/29/screencast-comecando-bem-com-zend-framework"
+slug = "2011/screencast-comecando-bem-com-zend-framework"
 Categories = ['vídeos e casts']
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "4 Drops of Life - Five"
 date = "2017-02-13"
-slug = "2017/02/13/4-drops-of-life-5"
+slug = "2017/4-drops-of-life-5"
 Categories = ['vida']
 +++
 No 4 Drops of life de hoje trago uma sugestão de banda, um ponto de atenção que pode melhorar seu sono, uma dica para focar mais e uma ideia para se manter desafiado.

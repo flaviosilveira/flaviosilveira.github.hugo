@@ -1,7 +1,7 @@
 +++
 title = "CodeIgniter ‘metido’ a Ruby on Rails. (ciforms.sh)"
 date = "2009-04-16"
-slug = "2009/04/16/codeigniter-metido-a-ruby"
+slug = "2009/codeigniter-metido-a-ruby"
 Categories = ['desenvolvimento', 'php', 'shell']
 +++
 

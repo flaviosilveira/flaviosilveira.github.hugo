@@ -1,7 +1,7 @@
 +++
 title = "Hangout PHP in Rio"
 date = "2012-11-02"
-slug = "2012/11/02/hangout-php-in-rio"
+slug = "2012/hangout-php-in-rio"
 Categories = ['vídeos e casts']
 +++
 

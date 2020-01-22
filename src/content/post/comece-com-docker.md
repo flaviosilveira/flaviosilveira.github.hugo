@@ -1,7 +1,7 @@
 +++
 title = "Comece com Docker"
 date = "2016-10-03"
-slug = "2016/10/03/comece-com-docker"
+slug = "2016/comece-com-docker"
 Categories = ['desenvolvimento']
 +++
 Tenho dois posts envolvendo [vagrant](https://www.vagrantup.com/) aqui no blog que ainda são certo sucesso de acessos. [Vagrant Fácil e Útil](http://flaviosilveira.com/2012/vagrant-facil-e-util) que dá uma introdução ao Vagrant com um exemplo simples e [Vagrant, PuPHPet E PHP Built In](http://flaviosilveira.com/2013/vagrant-puphpet-e-php-built-in/) que apresenta o PuPHPet como um facilitador para criar ambientes e um experimento com o PHP Built In. O primeiro artigo é de 2012, o segundo de 2013. Passados três anos e vendo a busca disso não diminuir, quero trazer para quem ainda não conhece o [Docker](https://www.docker.com/).

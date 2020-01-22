@@ -1,7 +1,7 @@
 +++
 title = "JQuery E JQuery Price Para Formatar Seus Campos De Valor Monetário"
 date = "2010-10-15"
-slug = "2010/10/15/jquery-e-jquery-price-para-formatar-seus-campos-de-valor-monetario"
+slug = "2010/jquery-e-jquery-price-para-formatar-seus-campos-de-valor-monetario"
 Categories = ['desenvolvimento', 'javascript']
 +++
 

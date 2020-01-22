@@ -1,7 +1,7 @@
 +++
 title = "Habilitando Layouts No CodeIgniter (Template Engine) – Parte 1"
 date = "2010-02-18"
-slug = "2010/02/18/habilitando-layouts-no-codeigniter-template-engine-1"
+slug = "2010/habilitando-layouts-no-codeigniter-template-engine-1"
 Categories = ['desenvolvimento', 'php']
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "Perdeu a tampa do seu teclado Apple?"
 date = "2016-06-13"
-slug = "2016/06/13/perdeu-a-tampa-do-seu-teclado-apple"
+slug = "2016/perdeu-a-tampa-do-seu-teclado-apple"
 Categories = ['tecnologia']
 +++
 ![Tampa teclado Apple](../../../../assets/uploads/2016/tampa_teclado.jpg)

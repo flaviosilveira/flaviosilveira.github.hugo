@@ -1,7 +1,7 @@
 +++
 title = "Initializr – Comece Seu Projeto HTML5 Em 15 Segundos!"
 date = "2011-07-25"
-slug = "2011/07/25/initializr-comece-seu-projeto-html5-em-15-segundos"
+slug = "2011/initializr-comece-seu-projeto-html5-em-15-segundos"
 Categories = ['desenvolvimento', 'html', 'css', 'Javascript']
 +++
 

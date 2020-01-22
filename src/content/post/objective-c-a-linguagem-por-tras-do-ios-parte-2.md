@@ -1,7 +1,7 @@
 +++
 title = "Objective-C: A Linguagem Por Trás Do iOS – Parte 2"
 date = "2013-04-13"
-slug = "2013/04/13/objective-c-a-linguagem-por-tras-do-ios-parte-2"
+slug = "2013/objective-c-a-linguagem-por-tras-do-ios-parte-2"
 Categories = ['mobile']
 +++
 

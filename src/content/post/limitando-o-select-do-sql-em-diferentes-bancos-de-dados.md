@@ -1,7 +1,7 @@
 +++
 title = "Limitando O SELECT Do SQL Em Diferentes Bancos De Dados"
 date = "2009-02-27"
-slug = "2009/02/27/limitando-o-select-do-sql-em-diferentes-bancos-de-dados"
+slug = "2009/limitando-o-select-do-sql-em-diferentes-bancos-de-dados"
 Categories = ['desenvolvimento', 'sql']
 +++
 

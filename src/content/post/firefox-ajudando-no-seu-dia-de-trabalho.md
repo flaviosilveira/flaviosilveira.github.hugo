@@ -1,7 +1,7 @@
 +++
 title = "Firefox Ajudando No Seu Dia De Trabalho"
 date = "2009-01-08"
-slug = "2009/01/08/firefox-ajudando-no-seu-dia-de-trabalho"
+slug = "2009/firefox-ajudando-no-seu-dia-de-trabalho"
 Categories = ['desenvolvimento']
 +++
 

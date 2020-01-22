@@ -1,7 +1,7 @@
 +++
 title = "Salvando Tempo No Terminal"
 date = "2011-12-02"
-slug = "2011/12/02/salvando-tempo-no-terminal"
+slug = "2011/salvando-tempo-no-terminal"
 Categories = ['desenvolvimento', 'shell']
 +++
 

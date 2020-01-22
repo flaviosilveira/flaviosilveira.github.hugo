@@ -1,7 +1,7 @@
 +++
 title = "Global Game Jam 2012"
 date = "2012-01-06"
-slug = "2012/01/06/global-game-jam-2012"
+slug = "2012/global-game-jam-2012"
 Categories = ['desenvolvimento']
 +++
 

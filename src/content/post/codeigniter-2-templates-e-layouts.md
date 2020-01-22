@@ -1,7 +1,7 @@
 +++
 title = "Codeigniter 2 – Templates E Layouts"
 date = "2011-05-26"
-slug = "2011/05/26/codeigniter-2-templates-e-layouts"
+slug = "2011/codeigniter-2-templates-e-layouts"
 Categories = ['desenvolvimento', 'php']
 +++
 

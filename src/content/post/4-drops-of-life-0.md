@@ -1,7 +1,7 @@
 +++
 title = "4 Drops of Life - Zero"
 date = "2016-09-26"
-slug = "2016/09/26/4-drops-of-life-0"
+slug = "2016/4-drops-of-life-0"
 Categories = ['vida']
 +++
 Reavaliando minha lista de metas para 2016, vejo que uma delas era **Escrever mais**. Olhando aqui no blog coloquei apenas 2 posts esse ano, o que não altera minha péssima métrica dos últimos 730 dias. Procurando mudar isso vou começar essa série que estou chamando de **4 Drops of life**, que no nosso português seria algo como **4 gotas de vida**.

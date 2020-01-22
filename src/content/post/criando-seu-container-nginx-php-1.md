@@ -1,7 +1,7 @@
 +++
 title = "Criando seu Container NGinx + PHP (Parte 1)"
 date = "2017-01-14"
-slug = "2017/01/14/criando-seu-container-nginx-php-1"
+slug = "2017/criando-seu-container-nginx-php-1"
 Categories = ['desenvolvimento', 'php']
 +++
 Fala pessoal!<br/>Esse já é nosso terceiro artigo sobre docker:

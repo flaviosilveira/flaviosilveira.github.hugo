@@ -1,7 +1,7 @@
 +++
 title = "Evoluindo Seu Primeiro Jogo Em HTML5"
 date = "2014-02-17"
-slug = "2014/02/17/evoluindo-seu-primeiro-jogo-em-html5"
+slug = "2014/evoluindo-seu-primeiro-jogo-em-html5"
 Categories = ['games']
 +++
 

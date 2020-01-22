@@ -1,7 +1,7 @@
 +++
 title = "Erros No Vagrant No Mavericks OSX?"
 date = "2014-01-17"
-slug = "2014/01/17/erros-com-vagrant-no-mavericks-osx"
+slug = "2014/erros-com-vagrant-no-mavericks-osx"
 Categories = ['shell']
 +++
 

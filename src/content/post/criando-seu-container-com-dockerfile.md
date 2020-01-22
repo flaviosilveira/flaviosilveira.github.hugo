@@ -1,7 +1,7 @@
 +++
 title = "Criando seu Container com Dockerfile"
 date = "2017-02-12"
-slug = "2017/02/12/criando-seu-container-com-dockerfile"
+slug = "2017/criando-seu-container-com-dockerfile"
 Categories = ['desenvolvimento', 'php']
 +++
 Foi uma longa jornada até criarmos nosso container da maneira que queríamos [flaviosilveira.com/2017/criando-seu-container-nginx-php-1/](http://flaviosilveira.com/2017/criando-seu-container-nginx-php-1/) e [flaviosilveira.com/2017/criando-seu-container-nginx-php-2/](http://flaviosilveira.com/2017/criando-seu-container-nginx-php-2/). Ainda assim temos alguns pontos chatos como o de ter de iniciar o Nginx e o PHP-FPM Manualmente.

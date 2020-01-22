@@ -1,7 +1,7 @@
 +++
 title = "Redirecionando Usuários Do IPhone Para a Versão Mobile Do Seu Site – JavaScript"
 date = "2009-07-19"
-slug = "2009/07/19/redirecionando-para-versao-mobile"
+slug = "2009/redirecionando-para-versao-mobile"
 Categories = ['desenvolvimento', 'javascript', 'mobile']
 +++
 

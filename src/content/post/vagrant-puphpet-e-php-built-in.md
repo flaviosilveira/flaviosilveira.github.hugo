@@ -1,7 +1,7 @@
 +++
 title = "Vagrant, PuPHPet E PHP Built In"
 date = "2013-09-15"
-slug = "2013/09/15/vagrant-puphpet-e-php-built-in"
+slug = "2013/vagrant-puphpet-e-php-built-in"
 Categories = ['desenvolvimento', 'php']
 +++
 

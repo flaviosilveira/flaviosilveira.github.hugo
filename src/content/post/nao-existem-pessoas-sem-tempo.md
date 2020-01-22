@@ -1,7 +1,7 @@
 +++
 title = "Não Existem Pessoas Sem Tempo"
 date = "2016-04-22"
-slug = "2016/04/22/nao-existem-pessoas-sem-tempo"
+slug = "2016/nao-existem-pessoas-sem-tempo"
 Categories = ['vida']
 +++
 

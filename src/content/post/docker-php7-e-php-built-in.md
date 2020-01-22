@@ -1,7 +1,7 @@
 +++
 title = "Docker, PHP7 e PHP Built In"
 date = "2016-10-10"
-slug = "2016/10/10/docker-php7-e-php-built-in"
+slug = "2016/docker-php7-e-php-built-in"
 Categories = ['desenvolvimento', 'php']
 +++
 No artigo anterior ([Comece com Docker!](http://flaviosilveira.com/2016/comece-com-docker/)) descrevemos juntos alguns passos iniciais com o Docker. Criamos containers, usamos attached, detached, entramos, saímos, executamos comandos. Se você não está familiarizado a isso, te convido a visitar o artigo.

@@ -1,7 +1,7 @@
 +++
 title = "Primeiros Passos No PHPUnit"
 date = "2012-10-14"
-slug = "2012/10/14/primeiros-passos-no-phpunit"
+slug = "2012/primeiros-passos-no-phpunit"
 Categories = ['desenvolvimento', 'php']
 +++
 

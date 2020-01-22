@@ -1,7 +1,7 @@
 +++
 title = "Comece a Programar Para iOS"
 date = "2013-02-14"
-slug = "2013/02/14/comece-a-programar-para-ios"
+slug = "2013/comece-a-programar-para-ios"
 Categories = ['mobile']
 +++
 

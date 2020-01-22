@@ -1,7 +1,7 @@
 +++
 title = "4 Drops of Life - Three"
 date = "2016-11-07"
-slug = "2016/11/07/4-drops-of-life-3"
+slug = "2016/4-drops-of-life-3"
 Categories = ['vida']
 +++
 Salve pessoal! 

@@ -1,7 +1,7 @@
 +++
 title = "Montando a Tela Do Seu Aplicativo – Parte 1"
 date = "2013-03-06"
-slug = "2013/03/06/montando-a-tela-do-seu-aplicativo-parte-1"
+slug = "2013/montando-a-tela-do-seu-aplicativo-parte-1"
 Categories = ['mobile']
 +++
 

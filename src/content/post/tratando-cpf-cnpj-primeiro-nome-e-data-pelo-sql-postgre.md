@@ -1,7 +1,7 @@
 +++
 title = "Tratando CPF, CNPJ, Primeiro Nome E Data Pelo SQL (Postgre)"
 date = "2009-01-21"
-slug = "2009/01/21/tratando-cpf-cnpj-primeiro-nome-e-data-pelo-sql-postgre"
+slug = "2009/tratando-cpf-cnpj-primeiro-nome-e-data-pelo-sql-postgre"
 Categories = ['desenvolvimento', 'sql']
 +++
 

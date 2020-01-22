@@ -1,7 +1,7 @@
 +++
 title = "Quer estudar uma coisa nova? Docker te ajuda!"
 date = "2019-01-25"
-slug = "2019/01/25/quer-estudar-uma-coisa-nova-docker-te-ajuda"
+slug = "2019/quer-estudar-uma-coisa-nova-docker-te-ajuda"
 Categories = ['desenvolvimento']
 +++
 

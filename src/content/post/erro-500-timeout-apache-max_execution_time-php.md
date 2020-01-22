@@ -1,7 +1,7 @@
 +++
 title = "Erro 500, Timeout Apache, Max_execution_time PHP"
 date = "2008-12-26"
-slug = "2008/12/26/erro-500-timeout-apache-max_execution_time-php"
+slug = "2008/erro-500-timeout-apache-max_execution_time-php"
 Categories = ['desenvolvimento', 'php']
 +++
 

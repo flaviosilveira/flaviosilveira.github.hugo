@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Vida e Tecnologia  | Conhecendo Melhor Seu Interpretador De Comandos</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.59.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Conhecendo Melhor Seu Interpretador De Comandos" />
+<meta property="og:description" content="Se você é usuário de sistemas operacionais baseados em unix, deve estar acostumado a abrir o terminal para tarefas simples como mover e copiar arquivos, remover arquivos em massa, criar pastas, verificar diretórios, etc. Se você conhece um pouco mais e administra sites por exemplo, deve mover seus arquivos com scp, usar conexões ssh e fazer todo seu trabalho via terminal.
+
+Quem faz essa ligação entre você e o coração do sistema operacional, permitindo executar esses comandos, é o Shell. Quem interpreta e processa os comandos para você, é uma implementação do Shell, que é o que vamos conhecer melhor aqui hoje.
+
+Este termo Shell, deve ter feito você lembrar sobre Shell Script, que escutamos falar muito e nada mais é do que um script com vários comandos Shell dentro dele.
+
+Dentre as implementações de Shell, aquilo que interpreta seus comandos, a mais famosa hoje é o Bash (Bourne-again shell, fazendo uma referência ao Bourne Shell que você pode pesquisar sobre). Para conferir qual o interpretador padrão de seus comandos, em seu terminal digite o seguinte comando" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/2011/conhecendo-melhor-seu-interpretador-de-comandos/" />
+<meta property="article:published_time" content="2011-10-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2011-10-30T00:00:00+00:00" />
+<meta itemprop="name" content="Conhecendo Melhor Seu Interpretador De Comandos">
+<meta itemprop="description" content="Se você é usuário de sistemas operacionais baseados em unix, deve estar acostumado a abrir o terminal para tarefas simples como mover e copiar arquivos, remover arquivos em massa, criar pastas, verificar diretórios, etc. Se você conhece um pouco mais e administra sites por exemplo, deve mover seus arquivos com scp, usar conexões ssh e fazer todo seu trabalho via terminal.
+
+Quem faz essa ligação entre você e o coração do sistema operacional, permitindo executar esses comandos, é o Shell. Quem interpreta e processa os comandos para você, é uma implementação do Shell, que é o que vamos conhecer melhor aqui hoje.
+
+Este termo Shell, deve ter feito você lembrar sobre Shell Script, que escutamos falar muito e nada mais é do que um script com vários comandos Shell dentro dele.
+
+Dentre as implementações de Shell, aquilo que interpreta seus comandos, a mais famosa hoje é o Bash (Bourne-again shell, fazendo uma referência ao Bourne Shell que você pode pesquisar sobre). Para conferir qual o interpretador padrão de seus comandos, em seu terminal digite o seguinte comando">
+
+
+<meta itemprop="datePublished" content="2011-10-30T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2011-10-30T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="657">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Conhecendo Melhor Seu Interpretador De Comandos"/>
+<meta name="twitter:description" content="Se você é usuário de sistemas operacionais baseados em unix, deve estar acostumado a abrir o terminal para tarefas simples como mover e copiar arquivos, remover arquivos em massa, criar pastas, verificar diretórios, etc. Se você conhece um pouco mais e administra sites por exemplo, deve mover seus arquivos com scp, usar conexões ssh e fazer todo seu trabalho via terminal.
+
+Quem faz essa ligação entre você e o coração do sistema operacional, permitindo executar esses comandos, é o Shell. Quem interpreta e processa os comandos para você, é uma implementação do Shell, que é o que vamos conhecer melhor aqui hoje.
+
+Este termo Shell, deve ter feito você lembrar sobre Shell Script, que escutamos falar muito e nada mais é do que um script com vários comandos Shell dentro dele.
+
+Dentre as implementações de Shell, aquilo que interpreta seus comandos, a mais famosa hoje é o Bash (Bourne-again shell, fazendo uma referência ao Bourne Shell que você pode pesquisar sobre). Para conferir qual o interpretador padrão de seus comandos, em seu terminal digite o seguinte comando"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="" class="f3 fw2 hover-white no-underline white-90 dib">
+      Vida e Tecnologia
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Conhecendo Melhor Seu Interpretador De Comandos</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2011-10-30T00:00:00Z">October 30, 2011</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Se você é usuário de sistemas operacionais baseados em unix, deve estar acostumado a abrir o terminal para tarefas simples como mover e copiar arquivos, remover arquivos em massa, criar pastas, verificar diretórios, etc. Se você conhece um pouco mais e administra sites por exemplo, deve mover seus arquivos com scp, usar conexões ssh e fazer todo seu trabalho via terminal.</p>
+
+<p>Quem faz essa ligação entre você e o coração do sistema operacional, permitindo executar esses comandos, é o Shell. Quem interpreta e processa os comandos para você, é uma implementação do Shell, que é o que vamos conhecer melhor aqui hoje.</p>
+
+<p>Este termo Shell, deve ter feito você lembrar sobre Shell Script, que escutamos falar muito e nada mais é do que um script com vários comandos Shell dentro dele.</p>
+
+<p>Dentre as implementações de Shell, aquilo que interpreta seus comandos, a mais famosa hoje é o Bash (Bourne-again shell, fazendo uma referência ao Bourne Shell que você pode pesquisar sobre). Para conferir qual o interpretador padrão de seus comandos, em seu terminal digite o seguinte comando</p>
+
+<p>title = &ldquo;conhecendo melhor seu interpretador de comandos&rdquo;
+</pre></p>
+
+<p>Se seu interpretador for o Bash, como a maioria, você vai ver a saída <em>/bin/bash</em>.</p>
+
+<p>Entre outras implementações de Shell podemos ter <em>csh</em>, <em>tcsh</em>, <em>sh</em>, <em>ksh</em>, e várias outras. Para conferir se essas implementações estão instaladas no seu sistema operacional, basta digitar o nome delas. Por exemplo:</p>
+
+<p>title = &ldquo;conhecendo melhor seu interpretador de comandos&rdquo;
+</pre></p>
+
+<p>Caso esteja instalada, o terminal irá permitir que execute comandos naquela implementação, caso contrário apontará como comando inexistente. Você também consegue uma listagem das implementações shell disponíveis em seu sistema operacional abrindo o arquivo shells, geralmente localizado em <em>/etc/shells</em>.</p>
+
+<p>Acredito que se você usar outras implementações apenas por algum tempo, vai achar todas muito parecidas pois uma deriva ou usa a outra, e assim nem vai notar diferença entre elas.</p>
+
+<p><strong>Usando o Bash</strong></p>
+
+<p>O bash traz alguns atalhos que podem facilitar a sua vida, sendo um dos principais a tecla <em>TAB</em> (ou <em>ctrl + i</em>) para completar comandos, nomes de arquivos ou nomes de variáveis.</p>
+
+<p>Para buscar por comandos que você tenha digitado anteriormente use <em>ctrl + r</em>.<br/>
+Para anular a busca use <em>ctrl + c</em>, que também é usado para abortar outros comandos, scripts e as vezes loops infinitos.</p>
+
+<p><em>ctrl + a</em> para ir ao início da linha do comando (também obtido com a tecla <em>home</em>, se houver), <em>ctrl + e</em> para ir ao final dela (equivalente a tecla <em>end</em>).<br/>
+Perdeu a tecla <em>enter</em> ou cansou dela? Use <em>ctrl + j</em></p>
+
+<p>Esses atalhos tendem a funcionar melhor quando se está definido o padrão de teclas <em>Emacs</em>, embora grande maioria deles funcione em outros padrões.</p>
+
+<p>Você pode mudar esse padrão com o comando</p>
+
+<p>title = &ldquo;conhecendo melhor seu interpretador de comandos&rdquo;
+</pre></p>
+
+<p>Você poderia usar o padrão <em>VI</em>, da seguinte maneira</p>
+
+<p>title = &ldquo;conhecendo melhor seu interpretador de comandos&rdquo;
+</pre></p>
+
+<p>Como exemplo para essa situação, temos os atalhos <em>ctrl + p</em> (equivalente a seta para cima) e <em>ctrl + n</em> (equivalente a seta para baixo) para trazer os últimos comandos executados. Eles funcionam apenas no padrão <em>emacs</em>.</p>
+
+<p><strong>Preciso saber esses comandos?</strong></p>
+
+<p>Muito provavelmente um marginal não vai encostar uma arma na sua cabeça lhe cobrando esses comandos no meio da rua. Mas talvez algum dia na sua carreira, você vai entrar em algum Data Center, e ter de mexer diretamente em uma máquina que estiver dentro de um hack enorme.</p>
+
+<p>Você irá puxar uma pequena gaveta, que irá se tornar um monitor e um simples teclado. Esse teclado pode conter apenas teclas básicas, excluindo assim as suas tão usadas setas para navegar entre os caracteres e palavras, e as vezes até sem a tecla enter. Esteja preparado conhecendo alguns desses comandos. Lembre-se que o google pode não estar por perto.</p>
+
+<p>Em breve trarei para vocês uma alternativa bem legal para o Bash, e como ela pode ajudar na produtividade de pessoas que trabalham diretamente com o terminal.</p>
+
+<p>Até lá!</p><ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "flaviosilveira" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="" >
+    &copy; 2020 Vida e Tecnologia
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

@@ -1,7 +1,7 @@
 +++
 title = "Comparando Arrays E Trazendo Os Valores Diferentes"
 date = "2009-09-16"
-slug = "2009/09/16/comparando-arrays-e-trazendo-os-valores-diferentes"
+slug = "2009/comparando-arrays-e-trazendo-os-valores-diferentes"
 Categories = ['desenvolvimento', 'php']
 +++
 

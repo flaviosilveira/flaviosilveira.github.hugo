@@ -1,7 +1,7 @@
 +++
 title = "Codeigniter, Internet Explorer E O Tempo De Expiração Da Sessão"
 date = "2009-01-17"
-slug = "2009/01/17/codeigniter-internet-explorer-e-o-tempo-de-expiracao-da-sessao"
+slug = "2009/codeigniter-internet-explorer-e-o-tempo-de-expiracao-da-sessao"
 Categories = ['desenvolvimento', 'php']
 +++
 

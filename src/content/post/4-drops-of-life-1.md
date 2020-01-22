@@ -1,7 +1,7 @@
 +++
 title = "4 Drops of Life - One"
 date = "2016-10-10"
-slug = "2016/10/10/4-drops-of-life-1"
+slug = "2016/4-drops-of-life-1"
 Categories = ['vida']
 +++
 Continuando com a série 4 drops of life, essa é a edição 1.

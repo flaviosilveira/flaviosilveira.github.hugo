@@ -1,7 +1,7 @@
 +++
 title = "Múltiplos Sites Com Codeigniter"
 date = "2008-12-19"
-slug = "2008/12/19/alterando-configuracao-do-codeigniter"
+slug = "2008/alterando-configuracao-do-codeigniter"
 Categories = ['desenvolvimento', 'php']
 +++
 

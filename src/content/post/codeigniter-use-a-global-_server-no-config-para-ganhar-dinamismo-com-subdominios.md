@@ -1,7 +1,7 @@
 +++
 title = "CodeIgniter: Use a Global $_SERVER No Config Para Ganhar Dinamismo Com Subdomínios"
 date = "2009-07-26"
-slug = "2009/07/26/codeigniter-use-a-global-_server-no-config-para-ganhar-dinamismo-com-subdominios"
+slug = "2009/codeigniter-use-a-global-_server-no-config-para-ganhar-dinamismo-com-subdominios"
 Categories = ['desenvolvimento', 'php']
 +++
 

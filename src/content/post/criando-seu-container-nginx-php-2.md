@@ -1,7 +1,7 @@
 +++
 title = "Criando seu Container NGinx + PHP (Parte 2)"
 date = "2017-01-14"
-slug = "2017/01/14/criando-seu-container-nginx-php-2"
+slug = "2017/criando-seu-container-nginx-php-2"
 Categories = ['desenvolvimento', 'php']
 +++
 No final da [parte 1 desse artigo](http://flaviosilveira.com/2017/criando-seu-container-nginx-php-1), onde montamos um container com Debian, NGinx e PHP, nos deparamos com o seguinte: Se pararmos nosso container e precisar novamente de NGinx + PHP, teremos que partir do zero.

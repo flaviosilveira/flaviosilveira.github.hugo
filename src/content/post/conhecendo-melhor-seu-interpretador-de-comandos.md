@@ -1,7 +1,7 @@
 +++
 title = "Conhecendo Melhor Seu Interpretador De Comandos"
 date = "2011-10-30"
-slug = "2011/10/30/conhecendo-melhor-seu-interpretador-de-comandos"
+slug = "2011/conhecendo-melhor-seu-interpretador-de-comandos"
 Categories = ['desenvolvimento', 'shell']
 +++
 

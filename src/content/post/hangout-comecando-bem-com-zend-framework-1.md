@@ -1,7 +1,7 @@
 +++
 title = "Hangout – Começando Bem Com Zend Framework 1"
 date = "2012-11-19"
-slug = "2012/11/19/hangout-comecando-bem-com-zend-framework-1"
+slug = "2012/hangout-comecando-bem-com-zend-framework-1"
 Categories = ['vídeos e casts']
 +++
 

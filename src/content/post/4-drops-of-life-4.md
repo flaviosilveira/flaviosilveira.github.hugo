@@ -1,7 +1,7 @@
 +++
 title = "4 Drops of Life - Four"
 date = "2017-02-06"
-slug = "2017/02/06/4-drops-of-life-4"
+slug = "2017/4-drops-of-life-4"
 Categories = ['vida']
 +++
 No 4 Drops of life de hoje trago uma sugestão para aumentar seu hábito de leitura, um aplicativo, maneiras de se desafiar e a história de uma amiga com uma pele perfeita.

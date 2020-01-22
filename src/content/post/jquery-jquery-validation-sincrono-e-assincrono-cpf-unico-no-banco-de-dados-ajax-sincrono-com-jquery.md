@@ -1,7 +1,7 @@
 +++
 title = "JQuery / JQuery Validation / Síncrono E Assíncrono / CPF único No Banco De Dados / Ajax Síncrono Com JQuery"
 date = "2010-11-17"
-slug = "2010/11/17/jquery-jquery-validation-sincrono-e-assincrono-cpf-unico-no-banco-de-dados-ajax-sincrono-com-jquery"
+slug = "2010/jquery-jquery-validation-sincrono-e-assincrono-cpf-unico-no-banco-de-dados-ajax-sincrono-com-jquery"
 Categories = ['desenvolvimento', 'javascript']
 +++
 

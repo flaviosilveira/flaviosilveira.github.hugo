@@ -1,7 +1,7 @@
 +++
 title = "Coding Dojo – O Que é ? E Como Participar ?"
 date = "2011-04-14"
-slug = "2011/04/14/coding-dojo-o-que-e-e-como-participar"
+slug = "2011/coding-dojo-o-que-e-e-como-participar"
 Categories = ['desenvolvimento']
 +++
 

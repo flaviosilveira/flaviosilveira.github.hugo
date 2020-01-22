@@ -1,7 +1,7 @@
 +++
 title = "Como foi 2018 e o que você pode esperar de mim para 2019"
 date = "2019-01-08"
-slug = "2019/01/08/como-foi-2018-e-o-que-voce-pode-esperar-de-mim-para-2019"
+slug = "2019/como-foi-2018-e-o-que-voce-pode-esperar-de-mim-para-2019"
 Categories = ['vida', 'desenvolvimento']
 +++
 

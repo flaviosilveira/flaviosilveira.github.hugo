@@ -1,7 +1,7 @@
 +++
 title = "PodCast – Desenvolvimento Mobile Web"
 date = "2010-09-02"
-slug = "2010/09/02/podcast-desenvolvimento-mobile-web"
+slug = "2010/podcast-desenvolvimento-mobile-web"
 Categories = ['vídeos e casts']
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "Função Para Contar Palavras (Padrão De Caracteres) Em Uma String Microsoft SQL Server"
 date = "2009-11-06"
-slug = "2009/11/06/funcao-para-contar-palavras-padrao-de-caracteres-em-uma-string-microsoft-sql-server"
+slug = "2009/funcao-para-contar-palavras-padrao-de-caracteres-em-uma-string-microsoft-sql-server"
 Categories = ['desenvolvimento', 'sql']
 +++
 

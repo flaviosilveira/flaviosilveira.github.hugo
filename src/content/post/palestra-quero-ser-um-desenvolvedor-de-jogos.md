@@ -1,7 +1,7 @@
 +++
 title = "Palestra – Quero Ser Um Desenvolvedor De Jogos"
 date = "2011-09-01"
-slug = "2011/09/01/palestra-quero-ser-um-desenvolvedor-de-jogos"
+slug = "2011/palestra-quero-ser-um-desenvolvedor-de-jogos"
 Categories = ['vídeos e casts']
 +++
 
