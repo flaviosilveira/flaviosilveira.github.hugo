@@ -6,7 +6,7 @@ Categories = ['vida']
 +++
 No 4 Drops of life de hoje trago uma sugestão de banda, um ponto de atenção que pode melhorar seu sono, uma dica para focar mais e uma ideia para se manter desafiado.
 
-Para quem não conhece minha série 4 Drops of Life, visite [http://flaviosilveira.com/blog/categories/vida/](http://flaviosilveira.com/blog/categories/vida/) e os artigos com 4 pequenas dicas para você inserir na sua vida e viver melhor.
+Para quem não conhece minha série 4 Drops of Life, visite [http://flaviosilveira.com/categories/vida/](http://flaviosilveira.com/categories/vida/) e os artigos com 4 pequenas dicas para você inserir na sua vida e viver melhor.
 
 ###Pain Of Salvation
 A primeira vez que trouxe essa série, trouxe uma banda e hoje quero repetir a dose.

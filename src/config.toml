@@ -1,8 +1,17 @@
 baseURL = "http://localhost:1313"
-DefaultContentLanguage = "pt"
+defaultContentLanguage = "pt"
 disqusShortname = "flaviosilveira"
 title = "Vida e Tecnologia"
+description = "The last theme you'll ever need. Maybe."
+googleAnalytics = "UA-2775631-1"
 theme = "ananke"
 
+[permalinks]
+  post = "/:slug"
+
 [params]
-    gaid = "UA-XXXXXX"
+  twitter = "https://twitter.com/flaviosilveira"
+  github = "https://github.com/flaviosilveira"
+  linkedin = "https://www.linkedin.com/in/flaviosilveira"
+  background_color_class = "bg-black"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"

@@ -6,7 +6,7 @@ Categories = ['vida']
 +++
 No 4 Drops of life de hoje trago uma sugestão para aumentar seu hábito de leitura, um aplicativo, maneiras de se desafiar e a história de uma amiga com uma pele perfeita.
 
-Para quem não conhece minha série 4 Drops of Life, visite [http://flaviosilveira.com/blog/categories/vida/](http://flaviosilveira.com/blog/categories/vida/) e os artigos com 4 pequenas dicas para você inserir na sua vida e viver melhor.
+Para quem não conhece minha série 4 Drops of Life, visite [http://flaviosilveira.com/categories/vida/](http://flaviosilveira.com/categories/vida/) e os artigos com 4 pequenas dicas para você inserir na sua vida e viver melhor.
 
 ###Kindle
 Gosto de ler, mas sim, não é um hábito fácil. Seriados e filmes são muito atrativos para mim que sou bastante visual, estou desenhando e rabiscando o tempo todo. Já tentei Audio Books, mas não consegui. Para ouvir, gosto dos podcasts. A leitura sempre no mesmo ritmo dos áudio livros me deixa sonolento.
